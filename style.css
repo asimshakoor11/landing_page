@@ -1,0 +1,205 @@
+
+/* fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tilt+Prism&display=swap');
+
+  @font-face {
+    font-family: 'Champagne Regular';
+    src: local('Champagne Regular'), url('Champagne.woff') format('woff');
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: rgba(17, 16, 16, 0.8);
+}
+
+.display1{
+    display: flex;
+}
+
+.hidecon{
+    display: none;
+}
+
+.popup{   
+    display: flex;
+    flex-direction: column;
+}
+
+.icon img{
+    height: 30px;
+    float: right;
+    cursor: pointer;
+}
+
+.popup1{
+    background-color: #3AAB58;
+    height: 115px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    border: 2px solid black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.popup1 p{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 20px;
+    text-shadow: black;
+}
+
+.popup2 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14;
+    color: #ff5f15;
+    font-style: italic;
+}
+
+.popup2{
+    background-color: #046306;
+    height: 115px;
+    width: 450px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border: 2px solid black;
+    border-top: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.maincontainer{
+    height: 100vh;
+    background-image: url('imageaa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.pop-up_box{
+    background-color: #3AAB58;
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    padding: 20px 10px;
+    border-radius: 10px;
+   
+}
+
+.pop-up_box h1{
+    margin-bottom: 10px;
+    font-family: Cambria;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #424242;
+    text-transform: uppercase;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Cambria;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #2d2d2d;
+}
+
+
+input{
+    height: 25px;
+    padding: 0 5px;
+    font-family: Cambria;
+    font-size: 10px;
+    font-weight: bolder;
+    color: #424242;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea{
+    padding: 5px 5px;
+    margin: 10px 0;
+    font-family: Cambria;
+    font-size: 10px;
+    font-weight: bolder;
+    color: #424242;
+    border: none;
+    border-radius: 5px;
+}
+
+#email{
+    width: 265px;
+}
+
+.form p{
+    font-family: Cambria;
+    font-size: 10px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: underline;
+}
+
+#submit{
+    margin-top: 10px;  
+    background-color: orange;  
+    border-color: orange;
+    height: 30px;
+    width: 60px;
+    margin-left: 35%;
+    text-transform: uppercase;
+}
+
+
+.containerthanks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #8B4000;
+}
+
+.innerdivthanks{
+    background-color: #3AAB58;
+    height: 150px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.innerdivthanks p{
+    font-size: 40px;
+    color: black;
+    font-family:'Champagne Regular';
+    font-weight: bolder;
+}
+
+
