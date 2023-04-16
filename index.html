@@ -14,9 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
 
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
 </head>
@@ -43,15 +43,15 @@
                 <h1>Book a Showing</h1>
                 <div class="form">
                         <div class="row">
-                            <input type="text" placeholder="Full Name" id="name">
-                            <input type="number" placeholder="Phone Number" >
+                            <input type="text" placeholder="Full Name" id="name"> 
+                            <input type="number" placeholder="Phone Number" id="numb">
                         </div>
 
                         <br>
 
                         <div class="row">
-                            <input type="text" placeholder="Address" >
-                            <input type="text" placeholder="City" >
+                            <input type="text" placeholder="Address" id="address" >
+                            <input type="text" placeholder="City" id="city">
                         </div>
 
                         <br>
@@ -63,8 +63,8 @@
                         <br>
 
                         <div class="row">
-                            <Label>Date:</Label>
-                            <input type="date">
+                            <Label >Date:</Label>
+                            <input type="date" id="date">
                         </div>
 
                         <br>
@@ -74,7 +74,7 @@
                             <textarea cols="47" rows="10" placeholder="Message" id="message"></textarea>
                         </div>
 
-                        <p>The urgent request will be looked at within 12-18 hours with <br> our activated system</p>
+                        <p>The urgent request will be looked at within 12-18 hours with our activated system</p>
 
                         <div class="row">
                             <input type="submit" id="submit" onclick="handledisplay()">
